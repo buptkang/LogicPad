@@ -1,0 +1,204 @@
+C:\BOKANG\Test\GatesWpf\bin\Debug\GatesWpf.exe
+C:\BOKANG\Test\GatesWpf\bin\Debug\GatesWpf.pdb
+C:\BOKANG\Test\GatesWpf\bin\Debug\Gates.dll
+C:\BOKANG\Test\GatesWpf\bin\Debug\Gates.pdb
+C:\BOKANG\Test\GatesWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\Chart.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\ChartLine.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\TickRuler.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Gate.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateCanvas.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateSelector.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\SaveClose.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\ShadowBox.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Terminal.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\UIGates\BitDialog.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Window1.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Wire.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\App.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\Chart.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\ChartLine.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\TickRuler.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Gate.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateCanvas.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateSelector.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\SaveClose.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\ShadowBox.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Terminal.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\UIGates\BitDialog.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Window1.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Wire.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\App.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.g.resources
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateAnimation.csproj.GenerateResource.Cache
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.exe
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.pdb
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\GatesWpf.exe.config
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\GatesWpf.exe
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\GatesWpf.pdb
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\Gates.dll
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\Gates.pdb
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\ChartLine.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\TickRuler.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Gate.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\SaveClose.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\ShadowBox.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Terminal.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\UIGates\BitDialog.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Wire.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\App.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\Chart.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\ChartLine.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\TickRuler.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Gate.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateCanvas.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateSelector.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\SaveClose.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\ShadowBox.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Terminal.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\UIGates\BitDialog.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Window1.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Wire.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\App.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.g.resources
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateAnimation.csproj.GenerateResource.Cache
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.exe
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.pdb
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\Chart.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateCanvas.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateSelector.baml
+C:\BOKANG\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Window1.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\GatesWpf.exe.config
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\GatesWpf.exe
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\GatesWpf.pdb
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\Gates.dll
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\bin\Debug\Gates.pdb
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\ChartLine.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\TickRuler.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Gate.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\SaveClose.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\ShadowBox.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Terminal.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\UIGates\BitDialog.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Wire.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\App.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\Chart.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\ChartLine.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\TickRuler.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Gate.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateCanvas.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateSelector.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\SaveClose.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\ShadowBox.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Terminal.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\UIGates\BitDialog.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Window1.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Wire.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\App.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Charting\Chart.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateCanvas.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateSelector.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\Window1.baml
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.g.resources
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GateAnimation.csproj.GenerateResource.Cache
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.exe
+C:\0-LogicPad\LogicPad 2-StarPad\LogicPadGateSim\GatesWpf\obj\Debug\GatesWpf.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Charting\ChartLine.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Charting\TickRuler.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Gate.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\SaveClose.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\ShadowBox.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Terminal.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\UIGates\BitDialog.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Wire.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\App.baml
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Charting\Chart.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Charting\ChartLine.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Charting\TickRuler.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Gate.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GateCanvas.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GateSelector.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\SaveClose.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\ShadowBox.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Terminal.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\UIGates\BitDialog.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Window1.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\Wire.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\App.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GatesWpf.exe
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GatesWpf.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GatesWpf.g.resources
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GenerateResource.read.1.tlog
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\0-LogicPad\LogicPad2\LogicPad2\GatesWpf\obj\Debug\GenerateResource.write.1.tlog
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\bin\Debug\GatesWpf.exe.config
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GatesWpf.exe
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GatesWpf.pdb
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\bin\Debug\GatesWpf.exe
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\bin\Debug\GatesWpf.pdb
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\bin\Debug\Gates.pdb
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Charting\ChartLine.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Charting\TickRuler.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Gate.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\SaveClose.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\ShadowBox.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Terminal.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\UIGates\BitDialog.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Wire.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\App.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Charting\Chart.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Charting\ChartLine.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Charting\TickRuler.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Gate.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GateCanvas.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GateSelector.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\SaveClose.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\ShadowBox.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Terminal.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\UIGates\BitDialog.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Window1.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Wire.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\App.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Charting\Chart.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\DragDrop\GateDragDropAdorner.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GateCanvas.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GateSelector.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\Window1.baml
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GatesWpf.g.resources
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GenerateResource.read.1.tlog
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\GatesWpf-Revised-BOKANG\obj\Debug\GenerateResource.write.1.tlog

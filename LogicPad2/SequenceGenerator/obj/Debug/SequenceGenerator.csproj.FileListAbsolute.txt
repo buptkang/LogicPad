@@ -1,0 +1,15 @@
+C:\0-Experiment\UserStudySequenceGenerator\SequenceGenerator\bin\Debug\SequenceGenerator.pdb
+C:\0-Experiment\UserStudySequenceGenerator\SequenceGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\0-Experiment\UserStudySequenceGenerator\SequenceGenerator\obj\Debug\SequenceGenerator.pdb
+C:\0-Experiment\UserStudySequenceGenerator\SequenceGenerator\bin\Debug\SequenceGenerator.dll
+C:\0-Experiment\UserStudySequenceGenerator\SequenceGenerator\obj\Debug\SequenceGenerator.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\SequenceGenerator\bin\Debug\SequenceGenerator.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\SequenceGenerator\bin\Debug\SequenceGenerator.pdb
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\SequenceGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\SequenceGenerator\obj\Debug\SequenceGenerator.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\SequenceGenerator\obj\Debug\SequenceGenerator.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\SequenceGenerator\bin\Debug\SequenceGenerator.dll
+C:\0-LogicPad\LogicPad2\LogicPad2\SequenceGenerator\bin\Debug\SequenceGenerator.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\SequenceGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad2\LogicPad2\SequenceGenerator\obj\Debug\SequenceGenerator.dll
+C:\0-LogicPad\LogicPad2\LogicPad2\SequenceGenerator\obj\Debug\SequenceGenerator.pdb

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CircuitGroup Version="1.2">
+  <Circuit>
+    <Gates>
+      <Gate Type="Comment" Name="y" ID="1">
+        <Point X="850" Y="600" Angle="0" />
+        <Comment>y</Comment>
+      </Gate>
+      <Gate Type="UserOutput" Name="y" ID="2">
+        <Point X="770" Y="600" Angle="0" />
+      </Gate>
+      <Gate Type="Or" Name="Or" ID="3" NumInputs="2">
+        <Point X="662" Y="600" Angle="0" />
+      </Gate>
+      <Gate Type="UserInput" Name="B" ID="4">
+        <Point X="554" Y="492" Angle="0" />
+      </Gate>
+      <Gate Type="Comment" Name="B" ID="5">
+        <Point X="446" Y="492" Angle="0" />
+        <Comment>B</Comment>
+      </Gate>
+      <Gate Type="UserInput" Name="A" ID="6">
+        <Point X="554" Y="708" Angle="0" />
+      </Gate>
+      <Gate Type="Comment" Name="A" ID="7">
+        <Point X="446" Y="708" Angle="0" />
+        <Comment>A</Comment>
+      </Gate>
+    </Gates>
+    <Wires>
+      <Wire>
+        <From ID="3" Port="0" />
+        <To ID="2" Port="0" />
+      </Wire>
+      <Wire>
+        <From ID="4" Port="0" />
+        <To ID="3" Port="1" />
+      </Wire>
+      <Wire>
+        <From ID="6" Port="0" />
+        <To ID="3" Port="0" />
+      </Wire>
+    </Wires>
+  </Circuit>
+</CircuitGroup>

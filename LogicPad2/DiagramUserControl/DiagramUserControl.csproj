@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{840B6080-1CA1-45AB-A5D9-C15FDE9CC7C9}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogicPad2.Diagram</RootNamespace>
+    <AssemblyName>DiagramUserControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Geom">
+      <HintPath>..\..\libs\Geom.dll</HintPath>
+    </Reference>
+    <Reference Include="IACore, Version=1.7.6223.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\IACore.dll</HintPath>
+    </Reference>
+    <Reference Include="IAWinFX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\IAWinFX.dll</HintPath>
+    </Reference>
+    <Reference Include="Inq">
+      <HintPath>..\..\libs\Inq.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ink, Version=1.7.2600.2180, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\Microsoft.Ink.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ink.Analysis, Version=1.7.6223.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\Microsoft.Ink.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFHelp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\WPFHelp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrowUserControl\Arrow.cs" />
+    <Compile Include="ArrowUserControl\ArrowUserControl.xaml.cs">
+      <DependentUpon>ArrowUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FlickDirection.cs" />
+    <Compile Include="PieMenuUserControl\GateTest.cs" />
+    <Compile Include="PieMenuUserControl\IColorSelector.cs" />
+    <Compile Include="PieMenuUserControl\IndexedColourSelector.cs" />
+    <Compile Include="PieMenuUserControl\PieChartLayout.xaml.cs">
+      <DependentUpon>PieChartLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PieMenuUserControl\PiePiece.cs" />
+    <Compile Include="PieMenuUserControl\PiePlotter.xaml.cs">
+      <DependentUpon>PiePlotter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PieMenuUserControl\Utils.cs" />
+    <Compile Include="StrokeAnalyzer.cs" />
+    <Compile Include="UserIOLabelList.cs" />
+    <Compile Include="Wire.xaml.cs">
+      <DependentUpon>Wire.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ArrowUserControl\ArrowUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DragDrop\GateDragDropAdorner.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PieMenuUserControl\PieChartLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PieMenuUserControl\PiePlotter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Wire.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Gate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GateInkCanvas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PieMenuGateSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Terminal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UIGates\BitDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="CircuitXML.cs" />
+    <Compile Include="ConnectedWire.cs" />
+    <Compile Include="DragDrop\DragDropAdornerBase.cs" />
+    <Compile Include="DragDrop\DragDropHelper.cs" />
+    <Compile Include="DragDrop\GateDragDropAdorner.xaml.cs">
+      <DependentUpon>GateDragDropAdorner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EventDispatcher.cs" />
+    <Compile Include="Gate.xaml.cs">
+      <DependentUpon>Gate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GateInkCanvas.xaml.cs">
+      <DependentUpon>GateInkCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GateLocation.cs" />
+    <Compile Include="ICBuilder.cs" />
+    <Compile Include="ICList.cs" />
+    <Compile Include="InkAnalysisFeedbackAdorner.cs" />
+    <Compile Include="LogicDiagramInkCanvas.cs" />
+    <Compile Include="PieMenu.cs" />
+    <Compile Include="PieMenuGateSelector.xaml.cs">
+      <DependentUpon>PieMenuGateSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Terminal.xaml.cs">
+      <DependentUpon>Terminal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TopologicalSort.cs" />
+    <Compile Include="UIGates\BitDialog.xaml.cs">
+      <DependentUpon>BitDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIGates\Clock.cs" />
+    <Compile Include="UIGates\Comment.cs" />
+    <Compile Include="UIGates\IC.cs" />
+    <Compile Include="UIGates\Numeric.cs" />
+    <Compile Include="UIGates\ShapeGate.cs" />
+    <Compile Include="UIGates\UserIO.cs" />
+    <Compile Include="UndoRedo\GateUndos.cs" />
+    <Compile Include="UndoRedo\IUndoable.cs" />
+    <Compile Include="UndoRedo\Transaction.cs" />
+    <Compile Include="UndoRedo\UndoManager.cs" />
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\metal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CopyHS.png" />
+    <Resource Include="Images\saveAsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\shading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gates\DiagramGates.csproj">
+      <Project>{15BBDB68-90B9-4B7F-A956-D8578B797C16}</Project>
+      <Name>DiagramGates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicPad2Util\LogicPad2Util.csproj">
+      <Project>{D4BB3EEF-22BE-4491-86F7-47C954A1331F}</Project>
+      <Name>LogicPad2Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicPadParser\LogicPadParser.csproj">
+      <Project>{DC1EE420-6190-468C-922F-9BD6B8AB20A7}</Project>
+      <Name>LogicPadParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ZoomHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ActualSizeHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\PageWidthHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\hand_tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Scale.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

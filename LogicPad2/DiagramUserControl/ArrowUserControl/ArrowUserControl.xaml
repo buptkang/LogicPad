@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="LogicPad2.Diagram.ArrowUserControl.ArrowUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:shape="clr-namespace:LogicPad2.Diagram.ArrowUserControl">
+    <Canvas Canvas.Top="20" Canvas.Left="20">
+        <shape:Arrow  X1="130" Y1="100" X2="130" Y2="30" HeadWidth="18" HeadHeight="10" Stroke="Red" StrokeThickness="10.0"/>
+    </Canvas>
+</UserControl>

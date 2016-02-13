@@ -1,0 +1,84 @@
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Charting\ChartLine.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Charting\TickRuler.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Gate.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\SaveClose.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\ShadowBox.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Terminal.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\UIGates\BitDialog.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Wire.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\App.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Charting\Chart.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Charting\ChartLine.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Charting\TickRuler.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Gate.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GateCanvas.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GateSelector.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\SaveClose.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\ShadowBox.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Terminal.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\UIGates\BitDialog.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Window1.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Wire.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\App.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\bin\Debug\GatesWpf.exe.config
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\bin\Debug\GatesWpf.exe
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\bin\Debug\GatesWpf.pdb
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\bin\Debug\Gates.dll
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\bin\Debug\Gates.pdb
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Charting\Chart.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GateCanvas.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GateSelector.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\Window1.baml
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GatesWpf.g.resources
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GatesWpf.exe
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\GatesWpf\obj\Debug\GatesWpf.pdb
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.exe
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.pdb
+C:\BOKANG\Test\GatesWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.Properties.Resources.resources
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.csproj.GenerateResource.Cache
+C:\BOKANG\Test\GatesWpf\bin\Debug\GatesWpf.exe
+C:\BOKANG\Test\GatesWpf\bin\Debug\GatesWpf.pdb
+C:\BOKANG\Test\GatesWpf\bin\Debug\Gates.dll
+C:\BOKANG\Test\GatesWpf\bin\Debug\Gates.pdb
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\ChartLine.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\TickRuler.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Gate.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\SaveClose.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\ShadowBox.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Terminal.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\UIGates\BitDialog.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Wire.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\App.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\Chart.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\ChartLine.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\TickRuler.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Gate.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateCanvas.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateSelector.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\SaveClose.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\ShadowBox.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Terminal.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\UIGates\BitDialog.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Window1.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\Wire.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\App.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.cache
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf_MarkupCompile.lref
+C:\BOKANG\Test\GatesWpf\obj\Debug\Charting\Chart.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\DragDrop\GateDragDropAdorner.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateCanvas.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\GateSelector.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\Window1.baml
+C:\BOKANG\Test\GatesWpf\obj\Debug\GatesWpf.g.resources

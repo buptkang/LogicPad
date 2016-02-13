@@ -1,0 +1,15 @@
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\Gates\bin\Debug\Gates.dll
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\Gates\bin\Debug\Gates.pdb
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\Gates\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\Gates\obj\Debug\Gates.dll
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\Gates\obj\Debug\Gates.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\Gates\bin\Debug\Gates.dll
+C:\0-LogicPad\LogicPad2\LogicPad2\Gates\bin\Debug\Gates.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\Gates\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad2\LogicPad2\Gates\obj\Debug\Gates.dll
+C:\0-LogicPad\LogicPad2\LogicPad2\Gates\obj\Debug\Gates.pdb
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\Gates\bin\Debug\Gates.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\Gates\bin\Debug\Gates.pdb
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\Gates\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\Gates\obj\Debug\Gates.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\Gates\obj\Debug\Gates.pdb

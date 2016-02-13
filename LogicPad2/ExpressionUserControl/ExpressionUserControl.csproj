@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52E958C6-B5EF-4477-8868-5145C907CB5C}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogicPad2.Expression</RootNamespace>
+    <AssemblyName>ExpressionUserControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CharRecognizer">
+      <HintPath>..\..\libs\CharRecognizer.dll</HintPath>
+    </Reference>
+    <Reference Include="Expr">
+      <HintPath>..\..\libs\Expr.dll</HintPath>
+    </Reference>
+    <Reference Include="ExprBackends">
+      <HintPath>..\..\libs\ExprBackends.dll</HintPath>
+    </Reference>
+    <Reference Include="ExprMathML">
+      <HintPath>..\..\libs\ExprMathML.dll</HintPath>
+    </Reference>
+    <Reference Include="ExprStringEngine">
+      <HintPath>..\..\libs\ExprStringEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="ExprText">
+      <HintPath>..\..\libs\ExprText.dll</HintPath>
+    </Reference>
+    <Reference Include="ExprWPF">
+      <HintPath>..\..\libs\ExprWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\FSharp\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Geom">
+      <HintPath>..\..\libs\Geom.dll</HintPath>
+    </Reference>
+    <Reference Include="IACore, Version=1.7.6223.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\IACore.dll</HintPath>
+    </Reference>
+    <Reference Include="IAWinFX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\IAWinFX.dll</HintPath>
+    </Reference>
+    <Reference Include="Inq">
+      <HintPath>..\..\libs\Inq.dll</HintPath>
+    </Reference>
+    <Reference Include="MathRecognizer">
+      <HintPath>..\..\libs\MathRecognizer.dll</HintPath>
+    </Reference>
+    <Reference Include="MathUI">
+      <HintPath>..\..\libs\MathUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ink, Version=1.7.2600.2180, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\Microsoft.Ink.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ink.Analysis, Version=1.7.6223.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MSInking\Microsoft.Ink.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="netlink">
+      <HintPath>..\..\libs\netlink.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Unicode">
+      <HintPath>..\..\libs\Unicode.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils">
+      <HintPath>..\..\libs\Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFHelp">
+      <HintPath>..\..\libs\WPFHelp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Evaluator.cs" />
+    <Compile Include="Selection.cs" />
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\metal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CopyHS.png" />
+    <Resource Include="Images\saveAsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\shading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicPad2Util\LogicPad2Util.csproj">
+      <Project>{D4BB3EEF-22BE-4491-86F7-47C954A1331F}</Project>
+      <Name>LogicPad2Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicPadParser\LogicPadParser.csproj">
+      <Project>{DC1EE420-6190-468C-922F-9BD6B8AB20A7}</Project>
+      <Name>LogicPadParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ActualSizeHS.png" />
+    <Resource Include="Images\PageWidthHS.png" />
+    <Resource Include="Images\ZoomHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\hand_tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Scale.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

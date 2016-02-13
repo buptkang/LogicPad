@@ -1,0 +1,100 @@
+﻿<Window x:Class="LogicPad2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:LogicPad2"
+        Title="LogicPad2" WindowState="Maximized"
+        x:Name="logicPad2MainWindow">
+   
+    <Grid Background="LightGray">
+
+        <Grid.RowDefinitions>
+                <RowDefinition Height= "22" />
+                <RowDefinition Height= "30" />
+                <RowDefinition Height= "*" />
+        </Grid.RowDefinitions>
+
+        <Border x:Name="logicPadMenu" Grid.Row="0" >
+                <StackPanel Orientation="Horizontal">
+                    <Menu Height="22" Margin="0,0,0,0" Background="DarkGray">
+                        <!-- File Menu -->
+                        <MenuItem Header="_File" FontSize ="14"  FontWeight="SemiBold">
+                            <MenuItem Header="E_xit" Click="Window_ExitApp"/>
+                        </MenuItem>
+
+                        <!-- Representations Menu-->
+                        <MenuItem Header="_Representations" FontSize ="14"  FontWeight="SemiBold">
+                        <MenuItem x:Name="menuExpression" Header="_Expression" IsEnabled="False" Click="GenerateRrepresentation">
+                                
+                            </MenuItem>
+                        <MenuItem x:Name="menuDiagram" Header="_Diagram" IsEnabled="False" Click="GenerateRrepresentation">
+                                
+                            </MenuItem>
+                        <MenuItem x:Name="menuTruthTable" Header="_TruthTable" IsEnabled="False" Click="GenerateRrepresentation">
+                                
+                            </MenuItem>
+                        </MenuItem>
+
+                    <!--User Study-->
+                    <MenuItem Header="_Options" FontSize ="14"  FontWeight="SemiBold">
+                        <MenuItem Header="_Recognize" Click="ClickRecognize"/>
+                        <Separator />
+                        <MenuItem Header="_Next"  Click="ClickNext" />
+                        <Separator />
+                        <MenuItem Header="_UserId" Click="ClickUserId"/>
+                    </MenuItem>
+
+                    <MenuItem Header="_Mode" FontSize ="14"  FontWeight="SemiBold">
+                        <MenuItem Header="_Practice" Name="practiceMenu" Click="ClickModelSelection"/>
+                        <Separator />
+                        <MenuItem Header="_Test" Name="testMenu"  Click="ClickModelSelection" />
+                    </MenuItem>
+
+                    <!--Options--> 
+                    <MenuItem x:Name="toutchMenu" Header="_Configure" FontSize ="14"  FontWeight="SemiBold">
+                        <MenuItem x:Name="touchOption" Header="_Enabled Touch" IsChecked="False" Click="IsTouchEnabled" 
+                                  />
+                    </MenuItem>
+
+                    <!--Help Menu-->
+                    <MenuItem Header="_Help" FontSize ="14" FontWeight="SemiBold">
+                        <MenuItem x:Name="about" Header="_About Logic Pad" Click="AboutLogicPad"/>
+                    </MenuItem>
+                  </Menu>
+                </StackPanel>
+            </Border>
+
+        <Grid Grid.Row="1" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" x:Name="sketchUserStudyPanel" Visibility="Collapsed">
+                <Label x:Name="showingContent" FontWeight="Bold" FontSize="16" Foreground="Red"/>
+                <Border BorderBrush="Black" Margin="10,0,0,0" BorderThickness="2" >
+                    <StackPanel x:Name="timer"  Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="Start" Name="StartButton" Margin="10,0,0,0" Click="StartButton_Click"/>
+                        <Button Content="Stop" Name="StopButton" Margin="10,0,0,0" Click="StopButton_Click" IsEnabled="False" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <Border Grid.Row="2" BorderBrush="Black" BorderThickness="4">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+
+                <local:WidgetSelector x:Name="widgetSelector" Grid.Row="0" Height="20" StylusEnter="StylusEnterWidget" StylusLeave="StylusLeaveWidget"/>
+
+                <ScrollViewer  x:Name="MainGCScroller" Grid.Row="1"
+                               HorizontalScrollBarVisibility="Auto"
+                               VerticalScrollBarVisibility="Auto"
+                               LayoutUpdated="Scroller_MainCanvasLayoutUpdated">
+                    <local:MSInkAnalysisCanvas x:Name="mainInkCanvas"/>
+                </ScrollViewer>
+
+                <Canvas x:Name="adornerLayer" Visibility="Collapsed" />
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

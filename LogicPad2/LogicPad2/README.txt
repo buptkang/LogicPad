@@ -1,0 +1,20 @@
+﻿Event Handler in LogicPad:
+
+Expression:
+OnPreviewStylusDown
+OnPreviewMouseMove
+OnPreviewMouseLeftButtonDown
+OnPreviewMouseLeftButtonUp
+ 
+Diagram:
+OnStylusDown
+OnStylusMove
+OnStylusUp
+OnPreviewStylusMove
+OnPreviewMouseDown
+OnPreviewMouseMove
+OnPreviewMouseLeftButtonDown
+OnPreviewMouseLeftButtonUp
+
+TruthTable:
+OnStylusDown

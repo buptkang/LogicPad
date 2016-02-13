@@ -1,0 +1,18 @@
+﻿<Window x:Class="LogicPad2.UserInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UserInputWindow" Height="300" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Height="150">
+            <Border  BorderBrush="Black" BorderThickness="3" >
+                <StackPanel HorizontalAlignment="Center" Height="100">
+                    <Label FontSize ="20" >Input User ID</Label>
+
+                    <TextBox x:Name="textBox" Width="40"/>
+
+                    <Button x:Name="submitButton"  Click="submitButton_Click" Margin="10,10,0,0" Width="50" Height="30" Content="Submit"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

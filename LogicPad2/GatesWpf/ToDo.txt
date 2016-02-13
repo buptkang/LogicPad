@@ -1,0 +1,16 @@
+﻿TODO:
+
+hide/show ic
+moving gates left and top of 0,0
+numeric gates explode into input/output gates
+autoconnect when terminals dropped near each other
+way to specify the regions for ic (e.g. top, left, etc)
+optimizer (truth table)
+
+
+
+
+utility gates:
+mux/demux
+jk flip/flop
+

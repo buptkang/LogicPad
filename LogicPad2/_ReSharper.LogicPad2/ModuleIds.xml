@@ -1,0 +1,13 @@
+<Modules>
+  <Module PersistentId="CB9E18D2-10D3-4401-8655-20874E965B13" ModuleId="LogicPad2" />
+  <Module PersistentId="66B3BAB3-2433-40DB-BCD9-C482E818367C" ModuleId="TruthTableUserControl" />
+  <Module PersistentId="52E958C6-B5EF-4477-8868-5145C907CB5C" ModuleId="ExpressionUserControl" />
+  <Module PersistentId="840B6080-1CA1-45AB-A5D9-C15FDE9CC7C9" ModuleId="DiagramUserControl" />
+  <Module PersistentId="D4BB3EEF-22BE-4491-86F7-47C954A1331F" ModuleId="LogicPad2Util" />
+  <Module PersistentId="A51C2BEC-D8D2-4B25-8FF5-96E1C8E46FBF" ModuleId="ExpressionWindow" />
+  <Module PersistentId="6B9B7B5C-45BE-4D37-93B2-6C1B1607B8FE" ModuleId="TruthTableWindow" />
+  <Module PersistentId="78BF2065-562A-4A6A-87C7-D5E66F12E3AB" ModuleId="DiagramWindow" />
+  <Module PersistentId="15BBDB68-90B9-4B7F-A956-D8578B797C16" ModuleId="DiagramGates" />
+  <Module PersistentId="DC1EE420-6190-468C-922F-9BD6B8AB20A7" ModuleId="LogicPadParser" />
+  <Module PersistentId="8DA9B718-C093-4F5F-9DF0-F351559F0BF2" ModuleId="SequenceGenerator" />
+</Modules>

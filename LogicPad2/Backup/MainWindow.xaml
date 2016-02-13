@@ -1,0 +1,45 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	x:Class="InkCanvas.MainWindow"
+	x:Name="TruthTablePrototype"
+	Title="TruthTablePrototype" mc:Ignorable="d"
+	WindowState="Maximized">
+
+	<Grid x:Name="LayoutRoot" Margin="2" ScrollViewer.HorizontalScrollBarVisibility="Auto">		
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.763*"/>
+			<RowDefinition Height="0.237*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.752*"/>
+			<ColumnDefinition Width="0.248*"/>
+		</Grid.ColumnDefinitions>
+		<Border Margin="1,0" BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.ColumnSpan="2">
+			<InkPresenter x:Name="ExpressionInkPresenter" HorizontalAlignment="Left" Margin="0,0,0,-1" Width="615" OpacityMask="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}"/>
+		</Border>
+		<Border Margin="1" Grid.Row="0"
+		Grid.Column="1" BorderBrush="Black" BorderThickness="1" Padding="1,0,1,1" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+			<StackPanel Margin="-2,-1,-2,-2">
+				<Label x:Name="TermLabel" Content="Number Of Terms" Height="35.159" FontSize="18.667" FontWeight="Bold"/>
+                <ComboBox Margin="36.5,0,42,0">
+                    <ComboBoxItem Name="item1">1</ComboBoxItem>
+                    <ComboBoxItem Name="item2">2</ComboBoxItem>
+                    <ComboBoxItem Name="item3">3</ComboBoxItem>
+                </ComboBox>
+                <StackPanel Height="91" Margin="0,50,0,0">
+                	<RadioButton HorizontalAlignment="Left" Margin="20,20,0,0" Width="155.504" Content="Product Of Sums" FontWeight="Bold" FontSize="16"/>
+                	<RadioButton Margin="20,20,8,0" Height="22.333" Content="Sum Of Products" FontWeight="Bold" FontSize="16"/>
+                </StackPanel>
+                <StackPanel Height="137">
+                	<Button x:Name="ClearTruthTable" Content="Clear" Margin="32,50,24,0"/>
+                	<Button Content="Generate Expression" Margin="32,30,24,0"/>
+                </StackPanel>
+			</StackPanel>
+		</Border>
+		<Border BorderBrush="#FF160707" BorderThickness="2" CornerRadius="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Padding="1" d:IsLocked="True">
+			<InkCanvas x:Name="TruthTableInkCanvas" Height="561" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FFF8EFEF" Width="866"/>
+		</Border>
+	</Grid>
+</Window>

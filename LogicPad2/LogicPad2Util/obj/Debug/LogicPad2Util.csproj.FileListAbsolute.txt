@@ -1,0 +1,15 @@
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\LogicPad2Util\bin\Debug\LogicPad2Util.dll
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\LogicPad2Util\bin\Debug\LogicPad2Util.pdb
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\LogicPad2Util.dll
+C:\Users\Student\Downloads\LogicPad2\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\LogicPad2Util.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\LogicPad2Util\bin\Debug\LogicPad2Util.dll
+C:\0-LogicPad\LogicPad2\LogicPad2\LogicPad2Util\bin\Debug\LogicPad2Util.pdb
+C:\0-LogicPad\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\LogicPad2Util.dll
+C:\0-LogicPad\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\LogicPad2Util.pdb
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\LogicPad2Util\bin\Debug\LogicPad2Util.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\LogicPad2Util\bin\Debug\LogicPad2Util.pdb
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\ResolveAssemblyReference.cache
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\LogicPad2Util.dll
+C:\0-LogicPad-touch\LogicPad2\LogicPad2\LogicPad2Util\obj\Debug\LogicPad2Util.pdb

@@ -1,0 +1,15 @@
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\Gates\bin\Release\Gates.dll
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\Gates\bin\Release\Gates.pdb
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\Gates\obj\Release\ResolveAssemblyReference.cache
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\Gates\obj\Release\Gates.dll
+C:\Users\skollmansberger\Documents\Visual Studio 2010\Projects\GateSim\Gates\obj\Release\Gates.pdb
+C:\BOKANG\Code\555-LogicGateSimulator\GateSim-source-1.3\GateSim\Gates\bin\Release\Gates.dll
+C:\BOKANG\Code\555-LogicGateSimulator\GateSim-source-1.3\GateSim\Gates\bin\Release\Gates.pdb
+C:\BOKANG\Code\555-LogicGateSimulator\GateSim-source-1.3\GateSim\Gates\obj\Release\ResolveAssemblyReference.cache
+C:\BOKANG\Code\555-LogicGateSimulator\GateSim-source-1.3\GateSim\Gates\obj\Release\Gates.dll
+C:\BOKANG\Code\555-LogicGateSimulator\GateSim-source-1.3\GateSim\Gates\obj\Release\Gates.pdb
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\Gates\bin\Release\Gates.dll
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\Gates\bin\Release\Gates.pdb
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\Gates\obj\Release\ResolveAssemblyReference.cache
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\Gates\obj\Release\Gates.dll
+C:\0-LogicPad\LogicPad2\GateSim-source-1.3\GateSim\Gates\obj\Release\Gates.pdb

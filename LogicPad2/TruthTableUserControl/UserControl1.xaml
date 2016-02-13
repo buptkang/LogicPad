@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="LogicPad2.TruthTable.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LogicPad2.TruthTable"
+             mc:Ignorable="d"
+             x:Name="truthTableUserControl">
+
+    <UserControl.Background>
+        <ImageBrush ImageSource="Images/metal.jpg" Stretch="None" TileMode="Tile" Viewport="1,1,211,211" ViewportUnits="Absolute" />
+    </UserControl.Background>
+
+    <UserControl.RenderTransform>
+        <TransformGroup>
+            <ScaleTransform x:Name="UserControlScaleXY" ScaleX="1" ScaleY="1"/>
+            <TranslateTransform x:Name="UserControlXY" X="0" Y="0"/>
+        </TransformGroup>
+    </UserControl.RenderTransform>
+
+    <Border x:Name="controlBorder" BorderThickness="1" BorderBrush="Black">
+        
+        <Grid x:Name="Grid0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="28" />
+            </Grid.RowDefinitions>
+
+            <local:MSInkAnalysisCanvas x:Name="truthTableInkCanvas" Grid.Row="0" Background="#00000000"/>
+
+            <Border Grid.Row="1" BorderThickness="1" BorderBrush="Black">
+                
+                <StackPanel  Name="controlRegion"  
+                             Orientation="Horizontal" 
+                             HorizontalAlignment="Right" VerticalAlignment="Top">
+
+                    <Label Content="Logic TruthTable" FontWeight="Bold" FontStyle="Italic" Opacity="0.7"/>
+
+                    <Border BorderThickness="1" BorderBrush="Black" Margin="0,0,10,0">
+                        <StackPanel Orientation="Horizontal">
+
+                            <Label x:Name="TermLabel" Content="Nmbr Of Terms:"/>
+                            <Button Name="DeleteTerm">
+                                <Image Source="Images/delete.png" Height="15"/>
+                            </Button>
+
+                            <Label x:Name="myTerm" Margin="5,0,5,0" Width="20"/>
+
+                            <Button Name="AddTerm">
+                                <Image Source="Images/add.png" Height="15"/>
+                            </Button>
+
+                        </StackPanel>
+                    </Border>
+
+                    <Button Margin="0,0,10,0" ToolTip="Save As Image" x:Name="btnSave" Opacity="0.5">
+                        <Image Source="Images/saveAsHS.png"/>
+                    </Button>
+
+                    <Button Margin="0,0,10,0" ToolTip="Close InkCanvas" x:Name="btnCancel" Opacity="0.5" >
+                        <Image Source="Images/cancel.png" />
+                    </Button>
+
+                    <Button Margin="0,0,0,0" ToolTip="Move InkCanvas" x:Name="btnTransform" Opacity="0.5">
+                        <Image Source="Images/hand_tool.png"/>
+                    </Button>
+
+                    <Button Margin="10,0,0,0" ToolTip="Scale InkCanvas" x:Name="btnScale" Opacity="0.5">
+                        <Image Source="Images/Scale.png" />
+                    </Button>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
+
+</UserControl>

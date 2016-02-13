@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LogicPad2">
+</Property><Property Name="Solution File" Value="C:\0-LogicPad\LogicPad2\LogicPad2\LogicPad2.sln">
+</Property><Property Name="Date" Value="Monday, July 18, 2011">
+</Property><Property Name="Time" Value="9:52:56 AM">
+</Property></Properties><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\TruthTable.csproj" Description="Project file successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\TruthTable.csproj">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\App.xaml.cs" Description="File successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\MainWindow.xaml.cs" Description="File successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\MainWindow.xaml.cs">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\Application.ico" Description="File successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\Application.ico">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\App.xaml" Description="File successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\App.xaml">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\MainWindow.xaml" Description="File successfully backed up as C:\0-LogicPad\LogicPad2\LogicPad2\Backup\MainWindow.xaml">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\TruthTable.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TruthTable" Source="TruthTablePrototype\TruthTable.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TruthTable" Source="TruthTablePrototype\TruthTable.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

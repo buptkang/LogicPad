@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="LogicPad2.Diagram.Wire"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Canvas>
+        <Path Name="Outer" Stroke="Black" StrokeThickness="4" />
+        <Path Name="Inner" Stroke="White" StrokeThickness="4" />
+    </Canvas>
+    
+</UserControl>

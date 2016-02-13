@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="LogicPad2.WidgetSelector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:widget="clr-namespace:LogicPad2"
+             xmlns:dragDrop="clr-namespace:LogicPad2.DragDrop"
+             Height="140" Width="416">
+    <UserControl.Resources>
+        <dragDrop:WidgetDragDropAdorner x:Key="widgetAdorner" />
+    </UserControl.Resources>
+    
+    <Grid>
+        <Border BorderBrush="DarkGray" BorderThickness="4">
+            <StackPanel Name="widgetBar" FocusManager.IsFocusScope="False" Orientation="Horizontal">
+                <Border BorderBrush="Red" BorderThickness="4">
+                    <widget:DiagramRep x:Name="diagramWidget" Height="128" Width="128"
+                                       dragDrop:LogicPadDragDropHelper.IsDragSource="True"
+                                       dragDrop:LogicPadDragDropHelper.DragDropControl="{StaticResource widgetAdorner}"
+                                       dragDrop:LogicPadDragDropHelper.DropTarget="mainInkCanvas"
+                                       dragDrop:LogicPadDragDropHelper.AdornerLayer="adornerLayer"/>
+                </Border>
+                <Border BorderBrush="Green" BorderThickness="4">
+                    <widget:ExpressionRep x:Name="expressionWidget" Height="128" Width="128"
+                                       dragDrop:LogicPadDragDropHelper.IsDragSource="True"
+                                       dragDrop:LogicPadDragDropHelper.DragDropControl="{StaticResource widgetAdorner}"
+                                       dragDrop:LogicPadDragDropHelper.DropTarget="mainInkCanvas"
+                                       dragDrop:LogicPadDragDropHelper.AdornerLayer="adornerLayer"/>
+                </Border>
+                <Border BorderBrush="Blue" BorderThickness="4">
+                    <widget:TruthTableRep x:Name="truthTableWidget" Height="128" Width="128" 
+                                       dragDrop:LogicPadDragDropHelper.IsDragSource="True"
+                                       dragDrop:LogicPadDragDropHelper.DragDropControl="{StaticResource widgetAdorner}"
+                                       dragDrop:LogicPadDragDropHelper.DropTarget="mainInkCanvas"
+                                       dragDrop:LogicPadDragDropHelper.AdornerLayer="adornerLayer"/>
+                </Border>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

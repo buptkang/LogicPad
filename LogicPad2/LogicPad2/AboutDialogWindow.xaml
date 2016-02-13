@@ -1,0 +1,12 @@
+﻿<Window x:Class="LogicPad2.AboutDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About LogicPad" WindowStartupLocation="CenterScreen" Height="300" Width="400">
+    <StackPanel>
+        <TextBlock FontSize="18" FontWeight="Bold" HorizontalAlignment="Center">LogicPad</TextBlock>
+
+        <TextBlock FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,0"><Hyperlink NavigateUri="http://www.eecs.ucf.edu/isuelab/" RequestNavigate="NavigateTOISUE">Interactive System And User Experience Lab</Hyperlink></TextBlock>
+        
+        <TextBlock FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,0">University Of Central Florida</TextBlock>
+    </StackPanel>
+</Window>

@@ -1,0 +1,489 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using System.Windows.Shapes;
+using System.Windows.Media;
+using System.Windows.Controls;
+using System.Windows;
+using System.Windows.Ink;
+
+namespace LogicPad2.TruthTable
+{
+    public class TruthTable
+    {
+        #region Variables
+
+        private int number_of_terms = 3;
+
+        public int Number_of_terms
+        {
+            get { return number_of_terms; }
+            set { number_of_terms = value; }
+        }
+
+        private int _rows;
+
+        public int Rows
+        {
+            get { return _rows; }
+            set { _rows = value; }
+        }
+
+        private int _columns;
+
+        public int Columns
+        {
+            get { return _columns; }
+            set { _columns = value; }
+        }
+
+        private int sum_of_products_or_product_of_sums;
+
+        public int Sum_of_products_or_product_of_sums
+        {
+            get { return sum_of_products_or_product_of_sums; }
+            set { sum_of_products_or_product_of_sums = value; }
+        }
+
+        private int one_sol_or_all_possible;
+
+        public int One_sol_or_all_possible
+        {
+            get { return one_sol_or_all_possible; }
+            set { one_sol_or_all_possible = value; }
+        }
+
+        private String[] terms_names;
+
+        public String[] Terms_names
+        {
+            get { return terms_names; }
+            set { terms_names = value; }
+        }
+
+        private IDictionary<Rect, string> _termNameDict;
+
+        public IDictionary<Rect, string> TermNameDict
+        {
+            get { return _termNameDict; }
+            set { _termNameDict = value; }
+        }
+
+        private int[] fvalues;
+
+        public int[] Fvalues
+        {
+            get { return fvalues; }
+            set { fvalues = value; }
+        }
+
+        private IDictionary<Rect, string> _outputMap;
+
+        public IDictionary<Rect, string> OutputMap
+        {
+            get { return _outputMap; }
+            set { _outputMap = value; }
+        }
+
+        public string outputName
+        {
+            get {
+                foreach (String name in OutputMap.Values)
+                {
+                    return name;
+                }
+                return null;
+            }
+        }
+    
+        private System.Windows.Controls.InkCanvas inkCanvas;
+
+        public System.Windows.Controls.InkCanvas InkCanvas
+        {
+            get { return inkCanvas; }
+            set { inkCanvas = value; }
+        }
+
+        private List<InkRegion> inkRegions;
+
+        public List<InkRegion> InkRegions
+        {
+            get { return inkRegions; }
+            set { inkRegions = value; }
+        }
+
+
+        #endregion
+
+        public static readonly double GAP = 55.0;
+        public static int BOXSIZE = 3;
+
+        public TruthTable(System.Windows.Controls.InkCanvas inkCanvas, int number_of_terms)
+        {
+            this.InkCanvas = inkCanvas;
+
+            this.Number_of_terms = number_of_terms;
+
+            //Rows 
+            this.Rows = (int)Math.Pow(2, this.Number_of_terms) + 1;
+            //Columns
+            this.Columns = this.Number_of_terms + 2;
+
+            //Default Settings for term names 
+            terms_names = new String[number_of_terms];
+            Array.Copy(default_terms_names, 0, terms_names, 0, number_of_terms);
+
+            TermNameDict = new Dictionary<Rect, string>();
+            OutputMap = new Dictionary<Rect, string>();
+            
+            this.fvalues = new int[(int)Math.Pow(2, number_of_terms)];
+   
+            InkRegions = new List<InkRegion>();
+
+            one_sol_or_all_possible = 1;
+            sum_of_products_or_product_of_sums = 0;
+        }
+
+        public readonly String[] default_terms_names = 
+        {"A", "B", "C", "D", "E", "F", "G", "H" , "I" , "J" , "K" , 
+            "L" , "M" , "N" , "O" , "P", "Q", "R", "S", "T", "U" , "V", "W", "X", "Y", "Z" };
+
+        public bool IsHeaderBox(Rect rect)
+        {
+            foreach (InkRegion region in InkRegions)
+            {
+                if (region.Rect.Contains(rect))
+                {
+                    if (region.IsHeader)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public void insertValue(Rect rect, string value)
+        {
+            foreach (InkRegion region in InkRegions)
+            {
+                if (region.Rect.Contains(rect))
+                {
+                    if (!region.IsHeader)
+                    {
+                        if (region.IsInputInvalid)
+                        {
+                            InkCanvas.Children.Remove(region.ErrorProneFigure);
+                            region.IsInputInvalid = false;
+                            region.ErrorProneFigure = null;
+                        }
+                        this.Fvalues[region.RowIndex] = Convert.ToInt32(value);
+                    }
+                    else {
+                        if (region.IsInputInvalid)
+                        {
+                            InkCanvas.Children.Remove(region.ErrorProneFigure);
+                            region.IsInputInvalid = false;
+                            region.ErrorProneFigure = null;
+                        }
+                        if (!region.IsOutputHeader)
+                        {
+                            //Change term_names
+                            TermNameDict[region.Rect] = value;
+                        }
+                        else
+                        {
+                            OutputMap[region.Rect] = value;
+                        }
+                    }
+                }
+            }        
+        }   
+
+        #region TruthTable Initialization
+        /*
+         * In general, there will be (number of terms + 2) columns
+         * 
+         * For rows, besides header row, there will be n ^ 2 rows
+         *  
+         */ 
+        public void DrawGrid()
+        {
+            double initValue = GAP;
+
+            //Draw all the horizontal lines
+            Line h_line = null;
+           
+            for (int i = 0; i <= this.Rows; i++)
+            {
+                h_line = new Line();
+                h_line.Stroke = Brushes.Black;
+
+                h_line.X1 = GAP;
+                h_line.X2 = h_line.X1 + this.Columns * GAP;
+                h_line.Y1 = initValue;
+                h_line.Y2 = initValue;
+
+                initValue += GAP;
+
+                InkCanvas.Children.Add(h_line);
+            }
+
+            initValue = GAP;
+
+            //Draw all the vertical lines
+            Line v_line = null;
+            for (int j = 0; j <= this.Columns; j++)
+            {
+                v_line = new Line();
+                v_line.Stroke = Brushes.Black;
+
+                v_line.X1 = initValue;
+                v_line.X2 = initValue;
+                v_line.Y1 = GAP;
+                v_line.Y2 = v_line.Y1 + this.Rows * GAP;
+
+                initValue += GAP;
+
+                InkCanvas.Children.Add(v_line);
+            }
+        }//drawGrid
+
+        //Black brush
+        public void DrawTruthTableHeaders()
+        { 
+            Rect b;
+            Point center;
+            Brush color;
+            InkFigure header = null;
+
+            InkRegion inkRegion;
+
+           //For Row 0, draw headers 
+            for (int i = 0; i < Number_of_terms; i++)
+            { 
+                b = new Rect(GAP + (i+1) * GAP, GAP, GAP, GAP);
+                center = new Point(b.X + b.Width / 2, b.Y + b.Height / 2); 
+                color = Brushes.Black;
+                header = new InkFigure(Terms_names[i], b, center, color);
+                header.SetHeader();
+                InkCanvas.Children.Add(CreateInkRegion(b));
+                InkCanvas.Children.Add(header);
+                //Create one InkRegion
+                inkRegion = new InkRegion(b);
+                InkRegions.Add(inkRegion);
+
+                TermNameDict.Add(b, Terms_names[i]);
+            }
+
+            //Output
+            b = new Rect(GAP * Columns , GAP, GAP, GAP);
+            center = new Point(b.X + b.Width / 2, b.Y + b.Height / 2);
+            color = Brushes.Black;
+            header = new InkFigure("Output", b, center, color);
+            header.SetHeader();
+            InkCanvas.Children.Add(CreateInkRegion(b));
+            InkCanvas.Children.Add(header); 
+
+            inkRegion = new InkRegion(b);
+            inkRegion.IsOutputHeader = true;
+            InkRegions.Add(inkRegion);
+
+            OutputMap.Add(b, "Output");
+        }
+
+        private Path CreateInkRegion(Rect rect)
+        {
+            Path path = new Path();
+            path.Fill = Brushes.LightBlue;
+
+            RectangleGeometry rectangle = new RectangleGeometry();
+            rectangle.Rect = rect;
+
+            path.Data = rectangle;
+
+            return path;
+        }
+
+        /*
+         *  V is the sequence line number 
+         * 
+         */ 
+        private char[] ComputeRowValue(int v, int number_of_terms)
+        {
+            char[] rowValues = new char[number_of_terms];
+
+            for (int i = 0; i < rowValues.Length; i++)
+            {
+                rowValues[i] = '0';
+            }
+
+            char[] convertedValues = (Convert.ToString(v, 2)).ToCharArray();
+
+            Array.Copy(convertedValues, 0, rowValues, rowValues.Length - convertedValues.Length, convertedValues.Length);
+
+            return rowValues;
+        }
+
+        public void DrawTruthTableValues()
+        {
+            Rect b;
+            Point center;
+            Brush color;
+            InkFigure values = null;
+            InkRegion inkRegion;
+
+            int termSquares = (int)Math.Pow(2, number_of_terms);
+
+            for (int i = 0; i < termSquares; i++)
+            { 
+                //Draw sequence number
+                b = new Rect(GAP, GAP + (i+1) * GAP , GAP, GAP);
+                center = new Point(b.X + b.Width / 2, b.Y + b.Height / 2); 
+                color = Brushes.Black;
+                values = new InkFigure(i.ToString(), b, center, color);
+                values.SetHeader();
+                InkCanvas.Children.Add(values);
+
+                //Draw truth table row numbers
+                char[] rowValues = ComputeRowValue(i, number_of_terms);
+                for(int j = 0; j < Terms_names.Length; j++)
+                {
+                     b = new Rect((j+1) * GAP, (i+1) * GAP, GAP, GAP);
+                     center = new Point(b.X + b.Width + b.Width / 2, b.Y + b.Height + b.Height / 2); 
+                     color = Brushes.Blue;
+                     values = new InkFigure(rowValues[j].ToString(), b, center, color);
+                     InkCanvas.Children.Add(values);
+                }
+
+                //For output column
+                //Output
+                b = new Rect(GAP * Columns, (i+2) * GAP, GAP, GAP);
+                InkCanvas.Children.Add(CreateInkRegion(b));
+                inkRegion = new InkRegion(b, i);
+                InkRegions.Add(inkRegion);
+            }
+        }
+
+        public void InitDrawing()
+        {
+          
+            DrawTruthTableHeaders();
+            DrawTruthTableValues();
+            DrawGrid();
+        }
+
+        #endregion
+
+        public void DisplayInputErrorInfo(Rect rect)
+        {
+            foreach (InkRegion inkRegion in InkRegions)
+            {
+                if (inkRegion.Rect.Contains(rect))
+                {
+                    Rect b;
+                    Point center;
+                    Brush color;
+                    InkFigure values = null;
+
+                    if (inkRegion.IsInputInvalid)
+                    {
+                        return;
+                    }
+                    inkRegion.IsInputInvalid = true;
+
+                    if (!inkRegion.IsHeader)
+                    {   
+                        //Generate one error tag in the right side of rect
+
+                        b = new Rect(inkRegion.Rect.X + 2 * GAP, inkRegion.Rect.Y, 2 * GAP, GAP);
+                        center = new Point(b.X + b.Width / 2, b.Y + b.Height / 2);
+                        color = Brushes.Red;
+                        values = new InkFigure("Warning: Input 1 or 0 in the left box!", b, center, color);
+
+                        inkRegion.ErrorProneFigure = values;
+
+                        InkCanvas.Children.Add(values);
+                    }else
+                    {
+                        b = new Rect(inkRegion.Rect.X, inkRegion.Rect.Y - GAP, 2 * GAP, GAP);
+                        center = new Point(b.X + b.Width / 2, b.Y + b.Height / 2);
+                        color = Brushes.Red;
+                        values = new InkFigure("Warning: Input capitalized single letter in the below box!", b, center, color);
+
+                        inkRegion.ErrorProneFigure = values;
+
+                        InkCanvas.Children.Add(values);
+
+                    }
+                }
+              
+            }
+        }
+    }
+
+    public class InkRegion{
+        private Rect _rect;
+
+        public Rect Rect
+        {
+            get { return _rect; }
+            set { _rect = value; }
+        }
+ 
+        private bool _isHeader;
+
+        public bool IsHeader
+        {
+            get { return _isHeader; }
+            set { _isHeader = value; }
+        }
+
+        private bool _isOutputHeader;
+
+        public bool IsOutputHeader
+        {
+            get { return _isOutputHeader; }
+            set { _isOutputHeader = value; }
+        }
+
+        private int _rowIndex;
+
+        public int RowIndex
+        {
+            get { return _rowIndex; }
+            set { _rowIndex = value; }
+        }
+
+        private bool isInputInvalid;
+
+        public bool IsInputInvalid
+        {
+            get { return isInputInvalid; }
+            set { isInputInvalid = value; }
+        }
+
+        private InkFigure _errorProneFigure;
+
+        public InkFigure ErrorProneFigure
+        {
+            get { return _errorProneFigure; }
+            set { _errorProneFigure = value; }
+        }
+
+        public InkRegion(Rect rect)
+        {
+            this._rect = rect;
+            this._isHeader = true;          
+        }
+
+        public InkRegion(Rect rect, int rowIndex)
+        { 
+            this._rect = rect;
+            this._isHeader = false;
+            this._rowIndex = rowIndex;
+        }
+    }
+}
